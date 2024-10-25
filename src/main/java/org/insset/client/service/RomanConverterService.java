@@ -28,4 +28,6 @@ public interface RomanConverterService extends RemoteService {
 
     String convertDateYears(String nbr) throws IllegalArgumentException;
 
+    Double divideTwoIntegers(Integer dividend, Integer divisor) throws IllegalArgumentException;
+
 }
